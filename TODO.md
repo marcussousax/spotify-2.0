@@ -1,5 +1,5 @@
 - [ ] Build Layout
 - [x] Build Sidebar Component
-- [ ] Login Page
-- [ ] Implement Next Auth
+- [x] Login Page
+- [x] Implement Next Auth
 - [ ] Implement Spotify Web API
