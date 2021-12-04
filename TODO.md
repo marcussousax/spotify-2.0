@@ -2,4 +2,4 @@
 - [x] Build Sidebar Component
 - [x] Login Page
 - [x] Implement Next Auth
-- [ ] Implement Spotify Web API
+- [x] Implement middleware auth
