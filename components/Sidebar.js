@@ -15,7 +15,6 @@ function Sidebar() {
     const [playlistId, setPlaylistId] = useRecoilState(playlistIdState)
 
     React.useEffect(() => {
-        debugger
         if(spotifyApi.getAccessToken()){
             spotifyApi.getUserPlaylists().then(data => {
                 
@@ -29,7 +28,7 @@ function Sidebar() {
     console.log(`You picked the playlist ${playlistId}`)
 
     return (
-        <aside className="overflow-y-scroll scrollbar-hide h-screen text-gray-500 p-5 text-sm border-r border-gray-900">
+        <aside className="hidden md:inline-flex lg:text-sm sm:max-w[12rem] overflow-y-scroll scrollbar-hide h-screen text-gray-500 p-5 text-xs border-r border-gray-900">
             <div className="space-y-4">
                 <button onClick={() => signOut()} className="flex items-center space-x-2 hover:text-white">
                     <HomeIcon className="h-5 w-5" />
