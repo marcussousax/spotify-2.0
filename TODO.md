@@ -1,6 +1,7 @@
-- [ ] Build Layout
+- [x] Build Layout
 - [x] Build Sidebar Component
-- [ ] Build Center Component
+- [x] Build Center Component
 - [x] Login Page
 - [x] Implement Next Auth
 - [x] Implement middleware auth
+- [ ] Implement Player
