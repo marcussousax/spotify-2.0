@@ -4,4 +4,4 @@
 - [x] Login Page
 - [x] Implement Next Auth
 - [x] Implement middleware auth
-- [ ] Implement Player
+- [x] Implement Player
